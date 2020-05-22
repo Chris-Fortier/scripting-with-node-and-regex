@@ -1,0 +1,209 @@
+[
+   {
+      "name": "add",
+      "desc": "Add two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 100
+   },
+   {
+      "name": "subtract",
+      "desc": "subtract a number from another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 101
+   },
+   {
+      "name": "multiply",
+      "desc": "multiply a number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 102
+   },
+   {
+      "name": "divide",
+      "desc": "divide a number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 103
+   },
+   {
+      "name": "increment",
+      "desc": "increments a number by 1",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 104
+   },
+   {
+      "name": "decrement",
+      "desc": "decrements a number by 1",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 105
+   },
+   {
+      "name": "remainder",
+      "desc": "get the remainder of a number divided by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 106
+   },
+   {
+      "name": "multiplyDecimal",
+      "desc": "multiply a decimal number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 107
+   },
+   {
+      "name": "divideDecimal",
+      "desc": "divide a decimal number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 108
+   },
+   {
+      "name": "concatenate",
+      "desc": "concatenates input1 and input2 using + operator",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 109
+   },
+   {
+      "name": "concatenatePlusEquals",
+      "desc": "concatenates input1 and input2 using += operator",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 110
+   },
+   {
+      "name": "madLib",
+      "desc": "concatenates the three strings using variables",
+      "inputs": 3,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 111
+   },
+   {
+      "name": "getLengthOfString",
+      "desc": "counts how many letters are in your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 112
+   },
+   {
+      "name": "getFirstLetterOfString",
+      "desc": "returns the first letter of your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 113
+   },
+   {
+      "name": "getNthLetterOfString",
+      "desc": "returns the nth letter of your string",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 114
+   },
+   {
+      "name": "getLastLetterOfString",
+      "desc": "returns the last letter of your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 115
+   },
+   {
+      "name": "getNthToLastLetterOfString",
+      "desc": "returns the nth to last letter of your string",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 116
+   },
+   {
+      "name": "push",
+      "desc": "pushes a newItem to the end of an array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 117
+   },
+   {
+      "name": "pop",
+      "desc": "removes the last element of an array and returns what is left",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 118
+   },
+   {
+      "name": "shift",
+      "desc": "removes the first element of an array and returns what is left",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 119
+   },
+   {
+      "name": "unshift",
+      "desc": "adds the newItem to the beginning of the array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 120
+   },
+   {
+      "name": "addToShoppingList",
+      "desc": "adds itemType and quantity to the shopping list",
+      "inputs": 3,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 121
+   },
+   {
+      "name": "nextInLine",
+      "desc": "adds item to end of array, removes item from the beginning, returns the new array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 122
+   }
+]
