@@ -15,7 +15,7 @@ module.exports = {
       return description;
    },
    getInputs(component) {
-      return component.match(/(?<=<input)(.*?)(?=\/>)/gs).length;
+      return component.match(/(?<=<input)(.*?)(?=\/>)/gs);
    },
    trim(str) {
       // "use the string .replace() method and regex to first replace carriage returns and new lines with a space, then replace 2 or more spaces with 1 space, then remove spaces from beginning and end";

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Functional
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+
+               <!-- Implement the filter Method on a Prototype -->
+               <!-- start column -->
+                  <p class="name">
+                     <b>filterOutLowValues</b> - Filters out any value in the
+                     array that is lower than threshold.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value="[23, 65, 98, 5]"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="threshold"
+                        value="30"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Return Part of an Array Using the slice Method -->
+               <!-- start column -->
+                  <p class="name">
+                     <b>sliceArray</b> - Return Part of an Array Using the slice
+                     Method.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="inputArray"
+                        value='["Cat", "Dog", "Tiger", "Zebra", "Ant"]'
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="beginSlice"
+                        value="1"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="endSlice"
+                        value="3"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Remove Elements from an Array Using slice Instead of splice -->
+               <!-- start column -->
+                  <p class="name">
+                     <b>nonMutatingSplice</b> - Return an array sliced from
+                     beginSlice to endSlice.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="inputArray"
+                        value='["Chicago", "Delhi", "Islamabad", "London", "Berlin"]'
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="beginSlice"
+                        value="0"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="endSlice"
+                        value="3"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Combine Two Arrays Using the concat Method -->
+               <!-- start column -->
+                  <p class="name">
+                     <b>nonMutatingConcat</b> - Concatenate first array to
+                     second array.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="first"
+                        value="[1, 2, 3]"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="second"
+                        value="[4,5]"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Add Elements to the End of an Array Using concat Instead of push -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>nonMutatingPush</b> - Concatenate first array to second
+                     array instead of push.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="first"
+                        value="[1, 2, 3]"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="second"
+                        value="[4,5]"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Use the reduce Method to Analyze Data -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>getAverageRatingByDirector</b> - This returns the
+                     average rating of movies by a given director.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="director"
+                        value="Christopher Nolan"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>getSquaresOfPositiveIntegers</b> - This returns a list
+                     of the squares of all the positive integers.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value="[-3, 4.8, 5, 3, -3.2]"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Sort an Array Alphabetically using the sort Method -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>alphabeticalOrder</b> - This sorts an array in
+                     alphabetical order.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value='["a", "d", "c", "a", "z", "g"]'
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Split a String into an Array Using the split Method -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>splitify</b> - Split a String into an Array Using the
+                     split Method.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                        value="Hello World,I-am code"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Combine an Array into a String Using the join Method -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>sentensify</b> - Combine an Array into a String Using
+                     the join Method.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value='["May","the","force","be","with","you"]'
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Apply Functional Programming to Convert Strings to URL Slugs -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>urlSlug</b> - Convert the title string to a lowercase
+                     url slug with hyphens instead of spaces.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="Title"
+                        value="Winter Is Coming"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Use the every Method to Check that Every Element in an Array Meets a Criteria -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>checkIfAllGreaterThan</b> - This will check if all
+                     values in the array are greater than a given threshold.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value="[1, 2, 3, -4, 5]"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="threshold"
+                        value="0"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- Use the some Method to Check that Any Elements in an Array Meet a Criteria -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>checkIfSomeGreaterThan</b> - This will check if some
+                     values in the array are greater than a given threshold.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                        value="[1, 2, 3, -4, 5]"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="threshold"
+                        value="0"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>

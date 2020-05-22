@@ -1,0 +1,695 @@
+[
+   {
+      "name": "add",
+      "desc": "Add two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 100
+   },
+   {
+      "name": "subtract",
+      "desc": "subtract a number from another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 101
+   },
+   {
+      "name": "multiply",
+      "desc": "multiply a number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 102
+   },
+   {
+      "name": "divide",
+      "desc": "divide a number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 103
+   },
+   {
+      "name": "increment",
+      "desc": "increments a number by 1",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 104
+   },
+   {
+      "name": "decrement",
+      "desc": "decrements a number by 1",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 105
+   },
+   {
+      "name": "remainder",
+      "desc": "get the remainder of a number divided by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 106
+   },
+   {
+      "name": "multiplyDecimal",
+      "desc": "multiply a decimal number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 107
+   },
+   {
+      "name": "divideDecimal",
+      "desc": "divide a decimal number by another number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 108
+   },
+   {
+      "name": "concatenate",
+      "desc": "concatenates input1 and input2 using + operator",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 109
+   },
+   {
+      "name": "concatenatePlusEquals",
+      "desc": "concatenates input1 and input2 using += operator",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 110
+   },
+   {
+      "name": "madLib",
+      "desc": "concatenates the three strings using variables",
+      "inputs": 3,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 111
+   },
+   {
+      "name": "getLengthOfString",
+      "desc": "counts how many letters are in your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 112
+   },
+   {
+      "name": "getFirstLetterOfString",
+      "desc": "returns the first letter of your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 113
+   },
+   {
+      "name": "getNthLetterOfString",
+      "desc": "returns the nth letter of your string",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 114
+   },
+   {
+      "name": "getLastLetterOfString",
+      "desc": "returns the last letter of your string",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 115
+   },
+   {
+      "name": "getNthToLastLetterOfString",
+      "desc": "returns the nth to last letter of your string",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 116
+   },
+   {
+      "name": "push",
+      "desc": "pushes a newItem to the end of an array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 117
+   },
+   {
+      "name": "pop",
+      "desc": "removes the last element of an array and returns what is left",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 118
+   },
+   {
+      "name": "shift",
+      "desc": "removes the first element of an array and returns what is left",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 119
+   },
+   {
+      "name": "unshift",
+      "desc": "adds the newItem to the beginning of the array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 120
+   },
+   {
+      "name": "addToShoppingList",
+      "desc": "adds itemType and quantity to the shopping list",
+      "inputs": 3,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 121
+   },
+   {
+      "name": "nextInLine",
+      "desc": "adds item to end of array, removes item from the beginning, returns the new array",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 122
+   },
+   {
+      "name": "countCard",
+      "desc": "Counting cards. Start with a count of 0. Put in a new card and see the count change and whether to bet or not.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 200
+   },
+   {
+      "name": "updateRecords",
+      "desc": "Updates a record in your collection. You can keep adding and updating records but if you refresh the page your collection will reset to the default.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 201
+   },
+   {
+      "name": "iterateBy",
+      "desc": "This will return a list of numbers from start to end incrementing by increment.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 202
+   },
+   {
+      "name": "lookUpProfile",
+      "desc": "Looks up the property of a record.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 203
+   },
+   {
+      "name": "randomRange",
+      "desc": "Get a random integer between myMin and myMax inclusive. Optional: add an amount of numbers to generate in the third column.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 204
+   },
+   {
+      "name": "mySplice",
+      "desc": "Takes array, then splices out sliceLength items starting with spliceStart.",
+      "inputs": 3,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 205
+   },
+   {
+      "name": "spliceAdd",
+      "desc": "Takes array, deletes sliceLength items starting with spliceStart, then adds newItems in their place. newItems must be an array.",
+      "inputs": 4,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 206
+   },
+   {
+      "name": "quickCheck",
+      "desc": "Check to see if elem exists in array arr.",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 207
+   },
+   {
+      "name": "getType",
+      "desc": "Get the type of a variable.",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 208
+   },
+   {
+      "name": "filterOutLowValues",
+      "desc": "Filters out any value in the array that is lower than threshold.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 300
+   },
+   {
+      "name": "sliceArray",
+      "desc": "Return Part of an Array Using the slice Method.",
+      "inputs": 3,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 301
+   },
+   {
+      "name": "nonMutatingSplice",
+      "desc": "Return an array sliced from beginSlice to endSlice.",
+      "inputs": 3,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 302
+   },
+   {
+      "name": "nonMutatingConcat",
+      "desc": "Concatenate first array to second array.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 303
+   },
+   {
+      "name": "nonMutatingPush",
+      "desc": "Concatenate first array to second array instead of push.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 304
+   },
+   {
+      "name": "getAverageRatingByDirector",
+      "desc": "This returns the average rating of movies by a given director.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 305
+   },
+   {
+      "name": "getSquaresOfPositiveIntegers",
+      "desc": "This returns a list of the squares of all the positive integers.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 306
+   },
+   {
+      "name": "alphabeticalOrder",
+      "desc": "This sorts an array in alphabetical order.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 307
+   },
+   {
+      "name": "splitify",
+      "desc": "Split a String into an Array Using the split Method.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 308
+   },
+   {
+      "name": "sentensify",
+      "desc": "Combine an Array into a String Using the join Method.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 309
+   },
+   {
+      "name": "urlSlug",
+      "desc": "Convert the title string to a lowercase url slug with hyphens instead of spaces.",
+      "inputs": 1,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 310
+   },
+   {
+      "name": "checkIfAllGreaterThan",
+      "desc": "This will check if all values in the array are greater than a given threshold.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 311
+   },
+   {
+      "name": "checkIfSomeGreaterThan",
+      "desc": "This will check if some values in the array are greater than a given threshold.",
+      "inputs": 2,
+      "type": "functional",
+      "typeNum": 300,
+      "isFavorite": false,
+      "order": 312
+   },
+   {
+      "name": "convertToF",
+      "desc": "Convert Celsius to Fahrenheit",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 400
+   },
+   {
+      "name": "reverseString",
+      "desc": "Reverse a String",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 401
+   },
+   {
+      "name": "factorialize",
+      "desc": "Factorialize a Number",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 402
+   },
+   {
+      "name": "findLongestWordLength",
+      "desc": "Find the Length of the Longest Word in a String",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 403
+   },
+   {
+      "name": "largestInEachSubarray",
+      "desc": "Return Largest Numbers in Arrays",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 404
+   },
+   {
+      "name": "confirmEnding",
+      "desc": "This checks if string ends with target.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 405
+   },
+   {
+      "name": "repeatStringNumTimes",
+      "desc": "This returns a new string that is str repeated num times.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 406
+   },
+   {
+      "name": "truncateString",
+      "desc": "This will return a truncated string with ... after it if its longer than num.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 407
+   },
+   {
+      "name": "findElement",
+      "desc": "This looks through an array and returns the first element that passes the function func = (num) => num % 2 === 0.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 408
+   },
+   {
+      "name": "booWho",
+      "desc": "This checks if the argument is a boolean value.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 409
+   },
+   {
+      "name": "titleCase",
+      "desc": "This makes each word of a given sentence start with a capital letter but makes the rest of the letters lowercase.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 410
+   },
+   {
+      "name": "frankenSplice",
+      "desc": "This copies each element of the first array into the second array, in order, beginning inserting elements at index n of the second array.",
+      "inputs": 3,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 411
+   },
+   {
+      "name": "bouncer",
+      "desc": "This will remove all falsy values from an array.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 412
+   },
+   {
+      "name": "getIndexToIns",
+      "desc": "This will return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 413
+   },
+   {
+      "name": "mutation",
+      "desc": "This will return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.",
+      "inputs": 1,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 414
+   },
+   {
+      "name": "chunkArrayInGroups",
+      "desc": "This splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array. Look at the console to verify that its a 2D array.",
+      "inputs": 2,
+      "type": "algorithm",
+      "typeNum": 400,
+      "isFavorite": false,
+      "order": 415
+   },
+   {
+      "name": "matchLiteral",
+      "desc": "This will check if pattern is in string with a literal match.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 500
+   },
+   {
+      "name": "matchSingleCharacterWithMultiplePossibilities",
+      "desc": "This will find all the characters in possibilities in string.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 501
+   },
+   {
+      "name": "matchSingleCharactersNotSpecified",
+      "desc": "This will find all the characters not in possibilities in string.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 502
+   },
+   {
+      "name": "matchCharactersThatOccurOneOrMoreTimes",
+      "desc": "This will find matches when the given letter occurs one or more times in string.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 503
+   },
+   {
+      "name": "findCriminals",
+      "desc": "This will find one or more criminals represented by letter criminal within a group of other people.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 504
+   },
+   {
+      "name": "matchBeginningStringPattern",
+      "desc": "This will find target only in the beginning of the string.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 505
+   },
+   {
+      "name": "matchEndingStringPattern",
+      "desc": "This will find target only at the ending of the string.",
+      "inputs": 2,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 506
+   },
+   {
+      "name": "countAlphanumeric",
+      "desc": "This will count the number of alphanumeric characters in the given string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 507
+   },
+   {
+      "name": "countNonAlphanumeric",
+      "desc": "This will count the number of non alphanumeric characters in the given string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 508
+   },
+   {
+      "name": "countNumeric",
+      "desc": "This will count the number of numeric characters in the given string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 509
+   },
+   {
+      "name": "countNonNumeric",
+      "desc": "This will count the number of non alphanumeric characters in the given string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 510
+   },
+   {
+      "name": "countNonWhiteSpace",
+      "desc": "This will count the number of non-whitespace characters in the given string",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 511
+   },
+   {
+      "name": "lookAhead",
+      "desc": "This will match passwords that are greater than 5 characters long, do not begin with numbers, and have two consecutive digits.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 512
+   },
+   {
+      "name": "testIfRoosevelt",
+      "desc": "This will check if the name you entered is either Franklin or Eleanor Roosevelt.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 513
+   },
+   {
+      "name": "reverseThreeWords",
+      "desc": "This will reverse three words in a string using capture groups to search and replace.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 514
+   },
+   {
+      "name": "removeWhiteSpaceFromEnds",
+      "desc": "This will remove the space from the beginning and end of the string.",
+      "inputs": 1,
+      "type": "regex",
+      "typeNum": 500,
+      "isFavorite": false,
+      "order": 515
+   }
+]
