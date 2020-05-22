@@ -45,6 +45,8 @@ allComponents.push(...scrapeFile("functional", 300)); // scrape functional funct
 allComponents.push(...scrapeFile("algorithm", 400)); // scrape algorithm functions
 allComponents.push(...scrapeFile("regex", 500)); // scrape regex functions
 
+console.log("Total components =", allComponents.length);
+
 // write the file
 const targetFile = "./dist/dist.json";
 fs.writeFileSync(targetFile, JSON.stringify(allComponents));
